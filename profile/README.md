@@ -5,7 +5,7 @@
 <h1 align="center">Mythicove</h1>
 
 <p align="center">
-  An open-source Minecraft ecosystem for <b>skin sites, private servers and mod communities</b><br />
+  A source-available Minecraft ecosystem for <b>skin sites, private servers and mod communities</b><br />
   <sub><a href="./README.zh-CN.md">简体中文</a> · <a href="https://docs.gov.skin">Docs</a> · <a href="https://www.gov.skin">Website</a></sub>
 </p>
 
@@ -30,7 +30,7 @@
 
 ## Design principles
 
-- **Source-available** — products under Elastic License 2.0 (ELv2), API contracts MIT, docs CC BY-SA 4.0
+- **Source-available** — products under Elastic License 2.0 (ELv2), API contracts MIT, docs CC BY-SA 4.0; self-hosting is free even for monetized communities, see the [licensing policy](https://docs.gov.skin/en/community/licensing/)
 - **Protocol-compatible** — embracing existing standards (Yggdrasil, Modrinth API, `.mrpack`), no walled garden
 - **Modern stack** — Go backend + TypeScript frontend, deployment- and ops-friendly
 - **Elastic scale** — from a 1-player private server to a 10k-user platform, same codebase
