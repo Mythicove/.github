@@ -5,47 +5,34 @@
 <h1 align="center">Mythicove</h1>
 
 <p align="center">
-  一套面向 <b>皮肤站 / 私服 / Mod 站</b> 的开源 Minecraft 生态套件<br />
-  <sub><a href="#english">English</a> · <a href="https://docs.gov.skin">文档</a> · <a href="https://www.gov.skin">官网</a></sub>
+  An open-source Minecraft ecosystem for <b>skin sites, private servers and mod communities</b><br />
+  <sub><a href="./README.zh-CN.md">简体中文</a> · <a href="https://docs.gov.skin">Docs</a> · <a href="https://www.gov.skin">Website</a></sub>
 </p>
 
 ---
 
-## 产品
+## Products
 
-| | 项目 | 说明 |
+| | Project | Description |
 |---|---|---|
-| 🪞 | [Mythic Mirror](https://github.com/Mythicove/mythic-mirror) | 皮肤站 —— 基于 Yggdrasil API 的自定义登录 + 皮肤/披风，兼容 authlib-injector |
-| 📦 | [Mythic Hoard](https://github.com/Mythicove/mythic-hoard) | Mod 托管 —— 兼容 Modrinth API 的模组 / 整合包分发开源平台 |
-| 🧭 | [Mythic Compass](https://github.com/Mythicove/compass) | 启动器 —— Yggdrasil 登录 + 3D 皮肤预览 + 一键安装整合包 |
-| 🖥️ | [web](https://github.com/Mythicove/web) | 统一前端 —— 皮肤站 / Mod 站 / 混合站三种部署形态 |
+| 🪞 | [Mythic Mirror](https://github.com/Mythicove/mythic-mirror) | Skin site — custom Yggdrasil-based authentication + skin/cape hosting, authlib-injector compatible |
+| 📦 | [Mythic Hoard](https://github.com/Mythicove/mythic-hoard) | Mod hosting — open mod/modpack distribution platform, Modrinth-API compatible |
+| 🧭 | [Mythic Compass](https://github.com/Mythicove/compass) | Launcher — Yggdrasil login + 3D skin preview + one-click modpack install |
+| 🖥️ | [web](https://github.com/Mythicove/web) | Unified frontend — deployable as a skin site, a mod site, or a hybrid |
 
-## 基础设施
+## Infrastructure
 
-| 仓库 | 说明 |
+| Repository | Description |
 |---|---|
-| [api](https://github.com/Mythicove/api) | 生态统一 OpenAPI 契约（单一事实源，生成 Go server 与 TS client） |
-| [shared](https://github.com/Mythicove/shared) | 共享 Go 模块：auth / storage / search / cache / ratelimit / queue / mailer |
-| [docs](https://github.com/Mythicove/docs) | 统一文档站源码：产品计划、ADR、部署运维 → [docs.gov.skin](https://docs.gov.skin) |
+| [api](https://github.com/Mythicove/api) | Unified OpenAPI contract for the ecosystem (single source of truth, generates Go server & TS client) |
+| [shared](https://github.com/Mythicove/shared) | Shared Go modules: auth / storage / search / cache / ratelimit / queue / mailer |
+| [docs](https://github.com/Mythicove/docs) | Unified documentation site source: product plans, ADRs, deploy & ops → [docs.gov.skin](https://docs.gov.skin) |
 
-## 设计原则
+## Design principles
 
-- **源码可得** —— 产品采用 Elastic License 2.0（ELv2），API 契约 MIT，文档 CC BY-SA 4.0
-- **协议兼容** —— 拥抱 Yggdrasil、Modrinth API、`.mrpack` 等既有标准，不做封闭生态
-- **现代技术栈** —— Go 后端 + TypeScript 前端，部署运维友好
-- **弹性伸缩** —— 从 1 人私服到 10k 人平台，同一套代码按需扩展
-
----
-
-## English
-
-An open-source Minecraft ecosystem for **skin sites, private servers and mod communities**.
-
-- 🪞 **[Mythic Mirror](https://github.com/Mythicove/mythic-mirror)** — skin site with custom Yggdrasil authentication and skin/cape hosting
-- 📦 **[Mythic Hoard](https://github.com/Mythicove/mythic-hoard)** — open mod hosting & distribution platform, Modrinth-API compatible
-- 🧭 **[Mythic Compass](https://github.com/Mythicove/compass)** — custom launcher with Yggdrasil login, 3D skin preview and one-click modpack install
-- 🖥️ **[web](https://github.com/Mythicove/web)** — unified frontend deployable as a skin site, a mod site, or both
-
-Built on open standards (Yggdrasil, Modrinth API, `.mrpack`), source-available under ELv2 (products) / MIT (API contracts) / CC BY-SA 4.0 (docs).
+- **Source-available** — products under Elastic License 2.0 (ELv2), API contracts MIT, docs CC BY-SA 4.0
+- **Protocol-compatible** — embracing existing standards (Yggdrasil, Modrinth API, `.mrpack`), no walled garden
+- **Modern stack** — Go backend + TypeScript frontend, deployment- and ops-friendly
+- **Elastic scale** — from a 1-player private server to a 10k-user platform, same codebase
 
 📖 Documentation: [docs.gov.skin](https://docs.gov.skin) · 🌐 Website: [gov.skin](https://www.gov.skin)
