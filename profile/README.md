@@ -17,7 +17,7 @@
 |---|---|---|
 | 🪞 | [Mythic Mirror](https://github.com/Mythicove/mythic-mirror) | Skin site — custom Yggdrasil-based authentication + skin/cape hosting, authlib-injector compatible |
 | 📦 | [Mythic Hoard](https://github.com/Mythicove/mythic-hoard) | Mod hosting — open mod/modpack distribution platform, Modrinth-API compatible |
-| 🧭 | [Mythic Compass](https://github.com/Mythicove/compass) | Launcher — Yggdrasil login + 3D skin preview + one-click modpack install |
+| 🧭 | [Mythic Compass](https://github.com/Mythicove/mythic-compass) | Launcher — Yggdrasil login + 3D skin preview + one-click modpack install |
 | 🖥️ | [web](https://github.com/Mythicove/web) | Unified frontend — deployable as a skin site, a mod site, or a hybrid |
 
 ## Infrastructure

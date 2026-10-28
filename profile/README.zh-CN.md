@@ -17,7 +17,7 @@
 |---|---|---|
 | 🪞 | [Mythic Mirror](https://github.com/Mythicove/mythic-mirror) | 皮肤站 —— 基于 Yggdrasil API 的自定义登录 + 皮肤/披风，兼容 authlib-injector |
 | 📦 | [Mythic Hoard](https://github.com/Mythicove/mythic-hoard) | Mod 托管 —— 兼容 Modrinth API 的模组 / 整合包分发平台 |
-| 🧭 | [Mythic Compass](https://github.com/Mythicove/compass) | 启动器 —— Yggdrasil 登录 + 3D 皮肤预览 + 一键安装整合包 |
+| 🧭 | [Mythic Compass](https://github.com/Mythicove/mythic-compass) | 启动器 —— Yggdrasil 登录 + 3D 皮肤预览 + 一键安装整合包 |
 | 🖥️ | [web](https://github.com/Mythicove/web) | 统一前端 —— 皮肤站 / Mod 站 / 混合站三种部署形态 |
 
 ## 基础设施
